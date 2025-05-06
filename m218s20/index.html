@@ -1,0 +1,349 @@
+<html>
+
+<head>
+   <title>Combinatorics and Number Theory</title>
+</head>
+
+<style>
+    <!--A{text-decoration: none;}-->
+</style>
+
+<body bgcolor="#EDDCC2" text="#000000" link="#80224A" vlink="#65002A" alink="FF0000">
+
+<center>
+  <h2><a href="index.html">Math 218</a></h2>
+  <h3>Combinatorics and Number Theory</h3>
+</center>
+
+
+<table align="center" width=600 cellpadding=5 cellspacing=0 border=0>
+  <tbody>
+  <tr bgcolor="#CBBAA0">
+    <td width=20% align=center><a href="index.html">General Information</a></td>
+    <td width=20% align=center><a href="schedule.html">Schedule</a></td>
+    <td width=20% align=center><a href="hw.html">Homework</a></td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table bgcolor="#BAA990" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Textbook</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+We will not follow an official textbook.  Instead, I will write course notes that I will post here:  <a href="ComboNumber.pdf">Current Notes</a>.
+</p>
+
+<p>
+A major goal of the course is the development strong proof writing skills.  For additional references about mathematical notation and proofs, I recommend the following:
+<ul>
+  <li> <i>Book of Proof</i> by Richard Hammack.  <a href="http://www.people.vcu.edu/~rhammack/BookOfProof/">Available online</a>.
+  <li> <i>Mathematical Reasoning:  Writing and Proof</i> by Ted Sundstrom.  <a href="http://scholarworks.gvsu.edu/books/9/">Available online</a>.
+  <li> <i>How to Prove It</i> by Daniel Velleman.
+</ul>
+</p>
+
+<p>
+For general advice on making the transition from a computational perspective of mathematics to a more conceptual understanding (including how to think logically and how to write mathematics), consider reading the following:
+<ul>
+  <li> <i>How to Think Like a Mathematician</i> by Kevin Houston.
+  <li> <i>How to Study as a Mathematics Major</i> by Lara Alcock.
+</ul>
+</p>
+
+
+<table bgcolor="#BAA990" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Administrative Information</th>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table align="center" border="0" cellpadding="4" cellspacing="2" width="400">
+  <tbody>
+  <tr>
+    <td bgcolor="#CBBAA0" align="center">Instructor</td>
+    <td bgcolor="#DCCBB0" align="center">Joe Mileti</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CBBAA0" align="center">Office</td>
+    <td bgcolor="#DCCBB0" align="center">Noyce 2514</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CBBAA0" align="center">Office Hours</td>
+    <td bgcolor="#DCCBB0" align="center">Monday 9:30 - 10:30<br>Tuesday 3:15 - 4:30<br>Wednesday 1:30 - 2:30<br>Thursday 9:00 - 10:30<br>Also By Appointment</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CBBAA0" align="center">Email</td>
+    <td bgcolor="#DCCBB0" align="center">miletijo ~at~ grinnell ~dot~ edu</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CBBAA0" align="center">Phone</td>
+    <td bgcolor="#DCCBB0" align="center">641-269-4994</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CBBAA0" align="center">Class Time</td>
+    <td bgcolor="#DCCBB0" align="center">MWF 11:00 - 11:50</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CBBAA0" align="center">Classroom</td>
+    <td bgcolor="#DCCBB0" align="center">Noyce 2245</td>
+  </tr>
+  </tbody>
+</table>
+
+
+<br>
+
+<table align="center" border="0" cellpadding="4" cellspacing="2" width="450">
+  <tbody>
+  <tr>
+    <td bgcolor="#CBBAA0" align="center">Course Mentor</td>
+    <td bgcolor="#DCCBB0" align="center">Ben Mikek</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CBBAA0" align="center">Mentor Session Room</td>
+    <td bgcolor="#DCCBB0" align="center">Noyce 2245</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CBBAA0" align="center">Mentor Session Times</td>
+    <td bgcolor="#DCCBB0" align="center">Wednesday 6:00 - 7:00<br>Sunday 6:00 - 7:00</td>
+  </tr>
+  </tbody>
+</table>
+
+
+<br>
+
+
+
+<table bgcolor="#BAA990" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Course Objectives</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+<ul>
+<li> Develop technical writing skills, including the ability to communicate abstract mathematical ideas correctly and clearly.
+<li> Learn how to approach new and challenging problems by developing creative problem solving strategies and techniques.
+<li> Learn how to abstract away essential ideas, to argue inductively/recursively, and to model a situation with combinatorial tools.
+<li> Develop an appreciation for how penetrating theoretical insights can lead to significantly faster computational tools.
+<li> Learn some of the fundamental concepts from combinatorics and number theory: set operations, equivalence relations, counting, bijections, binomial coefficients, paritions, permutations, divisibility, congruences, and modular arithmetic.
+</ul>
+</p>
+
+
+
+
+
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Homework Assignments</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+Homework assignments will be due every other class period and will be posted to the course webpage.  
+</p>
+
+<p>
+Policies for all homework assignments:
+</p>
+<ul>
+<li>Homework assignments and solutions will be posted to the course webpage.
+<li>Please take the time to write your solutions neatly and carefully!  All homework assignments consisting of more than one page must be stapled.
+<li>Homework is due at the beginning of class.
+<li>Throughout the semester, you may extend the deadline of at most two homework assignments to the next class meeting.  If you choose to extend the deadline on an assignment, you should send me an email by the scheduled due date.  Beyond these two extensions, late homework will not be accepted for credit.
+<li>Your lowest homework score will be dropped.
+</ul>
+
+<p>
+Although there will certainly be some "computational" problems in the course, most of the homework involves writing proofs and/or detailed explanations.  As a result, the clarity of exposition and the proper use of mathematical terminology are as vital to your solutions as having the correct idea.  A major goal of this course is to learn how to express your mathematical ideas correctly and to write convincing detailed proofs.  Do not be alarmed if your homework has many comments about how to improve (nobody starts out as an expert).
+</p>
+
+<p>
+If you want to learn how to present your work professionally, as well as keep digital records, I recommend learning how to type your solutions.  <a href="http://www.latex-project.org/">LaTeX</a> is a wonderful free typesetting system which produces high-quality documents at the cost of only a small amount of additional effort (beyond the nontrivial start-up cost of learning the fundamentals).  If you plan to do any kind of mathematical or scientific writing in the future, you will likely use LaTeX, so it is worth your time to familiarize yourself with it.  See Jim Hefferon's <a href="http://joshua.smcvt.edu/proofs/tutorial.pdf">LaTeX for Undergraduates</a> and his <a href="http://joshua.smcvt.edu/undergradmath/undergradmath.pdf">LaTeX Cheat Sheet</a> for the basics.  Also, feel free to ask me questions about how to use LaTeX, and/or to send you the LaTeX file for homework assignments.
+</p>
+
+
+
+<table bgcolor="#BAA990" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Exams</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+There will be three in class exams and a scheduled three hour final exam.
+</p>
+
+<p>
+In class exams dates:  February 17, April 1, and April 29.
+</p>
+
+<p>
+Final exam date:  Friday, May 15 at 2:00pm.
+</p>
+
+
+
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Grading</th>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table align="center" border="0" cellpadding="4" cellspacing="2" width="400">
+  <tbody>
+  <tr bgcolor="#CBBAA0">
+    <th align="center"></th>
+    <th align="center">Percentage</th>
+  </tr>
+  <tr bgcolor="#DCCBB0">
+    <td align="center">Homework</td>
+    <td align="center">25%</td>
+  </tr>
+   <tr bgcolor="#DCCBB0">
+    <td align="center">In Class Exams</td>
+    <td align="center">15% each</td>
+  </tr>
+  <tr bgcolor="#DCCBB0">
+    <td align="center">Final</td>
+    <td align="center">25%</td>
+  </tr>
+  <tr bgcolor="#DCCBB0">
+    <td align="center">Participation</td>
+    <td align="center">5%</td>
+  </tr>
+  </tbody>
+</table>
+
+
+
+<br>
+
+
+
+
+
+
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Academic Honesty</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+Consult the general <a href="http://catalog.grinnell.edu/content.php?catoid=12&navoid=2537#Honesty_in_Academic_Work">Grinnell College policy</a> on Academic Honesty and the associated <a href="https://grinco.sharepoint.com/sites/dean/AcadProg/Academic_Honesty_Booklet-Archive%20copy.pdf">booklet</a> for general information.
+</p>
+
+<p>
+<b>Homework:</b> If you enjoy working in groups, I strongly encourage you to work with others in the class to solve the homework problems.  If you do collaborative work or receive help form somebody in the course, <i>you must acknowledge this on the corresponding problem(s)</i>.  Writing "I worked with Sam on this problem" or "Mary helped me with this problem" suffices.  You may ask students outside the course for help, but you need to make sure they understand the academic honesty policies for the course and you need to cite their assistance as well.  Failing to acknowledge such collaboration or assistance is a violation of academic honesty.
+</p>
+
+<p>
+If you work with others, <i>your homework must be written up independently in your own words</i>.  You can not write a communal solution and all copy it down.  You can not read one person's solution and alter it slightly in notation/exposition.  Discussing ideas and/or writing parts of computations together on whiteboards or scratch paper is perfectly fine, but you need to take those ideas and write the problem up on your own.  Under no circumstances can you look at another student's completed written work.
+</p>
+
+<p>
+You may look at other sources, but <i>you must cite other books or online sources if they provide you with an idea that helps you solve a problem</i>.  However, you may not specifically look for solutions to homework problems, and you may not solicit help for homework problems from online forums.  
+</p>
+
+
+<p>
+<b>Exams and Final:</b>  You may neither give nor receive help.  Books, written notes, computers, phones, and calculators are not permitted at any time during a testing period.
+</p>
+
+
+
+
+
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Disabilities</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+I encourage students with documented disabilities to discuss appropriate accommodations with me.  You will also need to have a conversation with, and provide documentation of your disability to, the Coordinator of Disability Resources, John Hirschman, located on the third floor of Goodnow Hall (x3089).
+</p>
+
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Religious Observations</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+I encourage students who plan to observe holy days that coincide with class meetings or assignment due dates to consult with me as soon as possible so that we may reach a mutual understanding of how you can meet the terms of your religious observance and also the requirements for this course.
+</p>
+
+
+
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Unsolicited Advice</th>
+  </tr>
+  </tbody>
+</table>
+
+<ul>
+<p>
+<li> Actively read the course notes.  Read them once before class in order to become familiar with the core concepts.  Read them again, both slowly and deliberately, after class in order to build fluency.  Work to understand both the computations and the theoretical discussions.  Set aside time to simply <i>think</i> about the material and how it fits together, in addition to the time you give yourself to work on the homework.  Spend your time trying to internalize rather than memorize. 
+</p>
+
+<p>
+<li> Very few homework problems can be solved by looking up a similar problem in the notes and making small adjustments.  Relying on pattern matching and mimicry of past solutions will not lead to success.  Problems require a lot of contemplative thought and individual focus, so you should start working on the homework very early.  
+</p>
+
+<p>
+<li> When graded homework is returned, spend time reading the comments and reflecting on how you can improve your writing.  Engaging with direct feedback on your work is one of the fastest ways to make progress.  Also, read the posted solutions and compare them to your own.  Examine and learn from how the solutions differ from yours in ideas, language, and organization.
+</p>
+
+<p>
+<li>  Much of your learning will happen outside of class.  Although the amount of time necessary to understand the material varies, most students should anticipate spending at least 12 hours a week devoted to the course. In other words, you should schedule at least 9 hours outside of class for homework and independent reading/thinking. Learning math requires practice, patience, and endurance. 
+</p>
+
+<p>
+<li> If you are stuck on a problem, begin by working on simple examples and special cases.  Don't be afraid to "play" and "experiment".  Although I encourage doing this in all of your math courses, Combinatorics and Number Theory are subjects where this approach is especially helpful and often leads to key insights.  The process of abstracting from special cases to general patterns is difficult at first, but the only way to improve is not to be afraid to try. 
+</p>
+
+<p>
+<li> I really enjoy interacting with students. Please come to my office hours when you want assistance! To use our time together most effectively, it helps if you have grappled with the ideas and you bring some of your scratch work and attempts. One of the most difficult parts of your mathematical education is learning how to transition from having no idea, to obtaining vague hunches, to seizing on key ideas, to writing correct proofs. If you bring your ideas and scratch work, we can focus on how to help you manage these transitions. 
+</p>
+
+</ul>
+
+
+
+
+</body>
+
+</html>

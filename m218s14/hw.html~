@@ -1,0 +1,196 @@
+<html>
+
+<head>
+   <title>Combinatorics</title>
+</head>
+
+<style>
+    <!--A{text-decoration: none;}-->
+</style>
+
+<body bgcolor="#EDDCC2" text="#000000" link="#80224A" vlink="#65002A" alink="FF0000">
+
+<center>
+  <h2><a href="index.html">Math 218</a></h2>
+  <h3>Combinatorics</h3>
+</center>
+
+
+<table align="center" width=600 cellpadding=5 cellspacing=0 border=0>
+  <tbody>
+  <tr bgcolor="#CBBAA0">
+    <td width=20% align=center><a href="index.html">General Information</a></td>
+    <td width=20% align=center><a href="schedule.html">Schedule</a></td>
+    <td width=20% align=center><a href="hw.html">Homework</a></td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+  
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Homework</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+Homework assignments will be due every other class period and will be posted to the course webpage.  <b>Your solutions must be turned in at the beginning of class, and must be stapled</b>.  Please take the time to write up your solutions neatly and carefully!  Your lowest homework score will be dropped.
+</p>
+
+<p>
+Although there will certainly be some "computational" problems in the course, most of the homework involves writing proofs and/or detailed explanations.  This means that there are often many correct answers.  This also means that the clarity of exposition and the proper use of mathematical terminology are as vital to your solutions as having the correct idea.  A major goal of this course is to learn how to express your mathematical ideas correctly and to write convincing detailed proofs.  Do not be alarmed if your homework has many comments about how to improve (nobody starts out as an expert).
+</p>
+
+<p>
+If you enjoy working in groups, I strongly encourage you to work with others in the class to solve the homework problems.  If you do collaborative work or receive help form somebody in the course, <b>you must acknowledge this on the corresponding problem(s)</b>.  Saying "I worked with Sam on this problem" or "Mary helped me with this problem" suffices.  Failing to acknowledge such collaboration or assistance is a violation of academic honesty.
+</p>
+
+<p>
+If you work with others, <b>your homework must be written up independently in your own words</b>.  You can not write a communal solution and all copy it down.  You can not read one person's solution and alter it slightly in notation/exposition.  Discussing ideas and/or writing parts of computations together on whiteboards or scratch paper is perfectly fine, but you need to take those ideas and write the problem up on your own.  Under no circumstances can you look at another student's completed written work.
+</p>
+
+<p>
+<b>You must cite other books or online sources if you use them to help solve a problem</b>.  If you get ideas from such sources, you must cite them.  However, you may not specifically look for solutions to homework problems online and you may not solicit help for homework problems from online forums.  Also, you may not look at past students' completed solutions.  You may ask students outside the course for help, but you need to make sure they understand the academic honesty policies for the course and you need to cite their assistance as well.
+</p>
+
+
+
+
+<table align="center" border="0" cellpadding="4" cellspacing="2" width="80%">
+  <tbody>
+  <tr bgcolor="#A99880">
+    <th width="10%">Number</th>
+    <th width="20%">Due Date</th>
+    <th width="30%">Problems</th>
+    <th width="30%">Solutions</th>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">1</td>
+    <td align="center">Monday, 1/27</td>
+    <td align="center"><a href="hw1.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-329564-dt-content-rid-1224592_2/courses/S14-MAT218-02/sol1.pdf">Solutions</a></td>
+  </tr>  
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">2</td>
+    <td align="center">Friday, 1/31</td>
+    <td align="center"><a href="hw2.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-330175-dt-content-rid-1225906_2/courses/S14-MAT218-02/sol2.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">3</td>
+    <td align="center">Wednesday, 2/5</td>
+    <td align="center"><a href="hw3.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-331100-dt-content-rid-1228328_2/courses/S14-MAT218-02/sol3.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">4</td>
+    <td align="center">Monday, 2/10</td>
+    <td align="center"><a href="hw4.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-332030-dt-content-rid-1230790_2/courses/S14-MAT218-02/sol4.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">5</td>
+    <td align="center">Wednesday, 2/19</td>
+    <td align="center"><a href="hw5.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-333146-dt-content-rid-1234409_2/courses/S14-MAT218-02/sol5.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">6</td>
+    <td align="center">Monday, 2/24</td>
+    <td align="center"><a href="hw6.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-334054-dt-content-rid-1236833_2/courses/S14-MAT218-02/sol6.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">7</td>
+    <td align="center">Friday, 2/28</td>
+    <td align="center"><a href="hw7.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-334392-dt-content-rid-1238129_2/courses/S14-MAT218-02/sol7.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">8</td>
+    <td align="center">Wednesday, 3/5</td>
+    <td align="center"><a href="hw8.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-334825-dt-content-rid-1239588_2/courses/S14-MAT218-02/sol8.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">9</td>
+    <td align="center">Monday, 3/10</td>
+    <td align="center"><a href="hw9.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-335191-dt-content-rid-1240866_2/courses/S14-MAT218-02/sol9.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#A99880">
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">Spring Break</td>
+    <td align="center">-</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">10</td>
+    <td align="center">Friday, 4/4</td>
+    <td align="center"><a href="hw10.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-336280-dt-content-rid-1246217_2/courses/S14-MAT218-02/sol10.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">11</td>
+    <td align="center">Wednesday, 4/9</td>
+    <td align="center"><a href="hw11.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-336678-dt-content-rid-1247394_2/courses/S14-MAT218-02/sol11.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">12</td>
+    <td align="center">Monday, 4/14</td>
+    <td align="center"><a href="hw12.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-336933-dt-content-rid-1248169_2/courses/S14-MAT218-02/sol12.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">13</td>
+    <td align="center">Friday, 4/18</td>
+    <td align="center"><a href="hw13.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-337791-dt-content-rid-1249739_2/courses/S14-MAT218-02/sol13.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">14</td>
+    <td align="center">Wednesday, 4/23</td>
+    <td align="center"><a href="hw14.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-338092-dt-content-rid-1250672_2/courses/S14-MAT218-02/sol14.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">15</td>
+    <td align="center">Friday, 5/2</td>
+    <td align="center"><a href="hw15.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-338706-dt-content-rid-1253290_2/courses/S14-MAT218-02/sol15.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">16</td>
+    <td align="center">Friday, 5/9</td>
+    <td align="center"><a href="hw16.pdf">Assignment</a></td>
+    <td align="center"></td>
+  </tr>
+
+ </tbody>
+</table>
+
+
+</body>
+
+</html>
