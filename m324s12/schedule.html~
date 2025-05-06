@@ -1,0 +1,356 @@
+<html>
+
+<head>
+   <title>Algebraic Number Theory</title>
+</head>
+
+<style>
+    <!--A{text-decoration: none;}-->
+</style>
+
+<body bgcolor="#EDDCC2" text="#000000" link="#80224A" vlink="#65002A" alink="FF0000">
+
+<center>
+  <h2><a href="index.html">Math 324</a></h2>
+  <h3>Algebraic Number Theory</h3>
+</center>
+
+
+<table align="center" width=600 cellpadding=5 cellspacing=0 border=0>
+  <tbody>
+  <tr bgcolor="#CBBAA0">
+    <td width=20% align=center><a href="index.html">General Information</a></td>
+    <td width=20% align=center><a href="schedule.html">Schedule</a></td>
+    <td width=20% align=center><a href="hw.html">Homework</a></td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Schedule</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+We will spend the first few weeks of the course examining elementary number theory using the tools and viewpoint of abstract algebra.  Such a perspective provides beautiful proofs of many simple facts together with a deeper understanding of fundamental results.  From here, we will begin to think about the analog of the integers in fields extending the rationals.  Our first step will be to analyze the Gaussian Integers and use their elegant structure to prove nontrivial theorems about the ordinary integers.  Following up on that, we will study quadratic/cyclotomic extensions and examine the generalization of the integers in these settings.  Unfortunately, we will discover that unique factorization and other essential properties can fail in these higher analogues.  Toward the end of the course we will work to understand how to rectify the situation using more advanced ring theory.
+</p>
+
+<table align="center" border="0" cellpadding="4" cellspacing="2" width="100%">
+  <tbody>
+  <tr bgcolor="#A99880">
+    <th width="10%">Class Number</th>
+    <th width="15%">Date</th>
+    <th width="15%">Reading</th>
+    <th width="60%">Brief Description</th>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">1</td>
+    <td align="center">Monday, 1/23</td>
+    <td align="center">1.1 - 1.4</td>
+    <td>Overview, Ideas and Techniques of Algebraic Number Theory</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">2</td>
+    <td align="center">Wednesday, 1/25</td>
+    <td align="center">(Algebra:  10.1 - 10.5, 11.1)</td>
+    <td>Rings, Units, Integral Domains, Ideals, Divisibility, GCDs</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">3</td>
+    <td align="center">Friday, 1/27</td>
+    <td align="center">(Algebra:  2.2 - 2.5), 1.5</td>
+    <td>GCDs, Integer Primes, Fundamental Theorem of Arithmetic</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">4</td>
+    <td align="center">Monday, 1/30</td>
+    <td align="center">1.6, 1.7</td>
+    <td>Primes, Pythagorean Triples</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">5</td>
+    <td align="center">Wednesday, 2/1</td>
+    <td align="center">1.7, 2.1, 2.2</td>
+    <td>Pythagorean Triples, The Ring Z/nZ, Euler's Theorem and Fermat's
+    Little Theorem</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">6</td>
+    <td align="center">Friday, 2/3</td>
+    <td align="center">2.3</td>
+    <td>Chinese Remainder Theorem</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">7</td>
+    <td align="center">Monday, 2/6</td>
+    <td align="center">2.4</td>
+    <td>Properites of the Euler Function</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">8</td>
+    <td align="center">Wednesday, 2/8</td>
+    <td align="center">2.5, 2.6</td>
+    <td>Wilson's Theorem, U(Z/pZ) is Cyclic</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">9</td>
+    <td align="center">Friday, 2/10</td>
+    <td align="center">2.7</td>
+    <td>Structure of U(Z/2^kZ)</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">10</td>
+    <td align="center">Monday, 2/13</td>
+    <td align="center">2.7</td>
+    <td>Structure of U(Z/p^kZ)</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">11</td>
+    <td align="center">Wednesday, 2/15</td>
+    <td align="center">2.7, 2.8</td>
+    <td>Structure of U(Z/nZ), When -1 is a Square Modulo p</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">12</td>
+    <td align="center">Friday, 2/17</td>
+    <td align="center">3.1, (Algebra: 11.1)</td>
+    <td>Euclidean Domains, Gaussian Integers</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">13</td>
+    <td align="center">Monday, 2/20</td>
+    <td align="center">3.2</td>
+    <td>Principal Ideal Domains</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">14</td>
+    <td align="center">Wednesday, 2/22</td>
+    <td align="center">3.3</td>
+    <td>Noetherian Rings, Factorizations, UFDs</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">15</td>
+    <td align="center">Friday, 2/24</td>
+    <td align="center">3.4</td>
+    <td>Gaussian Integers, Sums of Squares</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">16</td>
+    <td align="center">Monday, 2/27</td>
+    <td align="center">3.4, 3.5</td>
+    <td>Gaussian Primes, Pythagorean Triples</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">17</td>
+    <td align="center">Wednesday, 2/29</td>
+    <td align="center">3.5, 3.6</td>
+    <td>Solving Diophantine Equations, Ideals and Quotients of the Gaussian Integers</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">18</td>
+    <td align="center">Friday, 3/2</td>
+    <td align="center">4.1, 4.2</td>
+    <td>Field Extensions, Algebraic and Transcendental Elements</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">19</td>
+    <td align="center">Monday, 3/5</td>
+    <td align="center">4.2</td>
+    <td>Algebraic and Transcendental Elements, Minimal Polynomials</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">20</td>
+    <td align="center">Wednesday, 3/7</td>
+    <td align="center">4.3</td>
+    <td>Irreducible Polynomials, Gauss' Lemma, Eisenstein's Criterion</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">21</td>
+    <td align="center">Friday, 3/9</td>
+    <td align="center">4.4, 4.5</td>
+    <td>Finite and Algebraic Extensions, Motivating Algebraic Integers</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">22</td>
+    <td align="center">Monday, 3/12</td>
+    <td align="center">4.5</td>
+    <td>Algebraic Integers</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">23</td>
+    <td align="center">Wednesday, 3/14</td>
+    <td align="center">5.1</td>
+    <td>Quadratic Number Fields</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">24</td>
+    <td align="center">Friday, 3/16</td>
+    <td align="center">5.2</td>
+    <td>The Ring of Integers in Quadratic Number Fields</td>
+  </tr>
+
+  <tr bgcolor="#A99880">
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td>Spring Break</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">25</td>
+    <td align="center">Monday, 4/2</td>
+    <td align="center">-</td>
+    <td>Class Canceled</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">26</td>
+    <td align="center">Wednesday, 4/4</td>
+    <td align="center">5.3</td>
+    <td>Norms and Units in Quadratic Number Fields</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">27</td>
+    <td align="center">Friday, 4/6</td>
+    <td align="center">5.3</td>
+    <td>Pell's Equation, Rational Approximations</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">28</td>
+    <td align="center">Monday, 4/9</td>
+    <td align="center">5.3</td>
+    <td>Pell's Equation, Units in Real Quadratic Number Fields</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">29</td>
+    <td align="center">Wednesday, 4/11</td>
+    <td align="center">5.3, 5.4</td>
+    <td>The Unit Group in Real Quadratic Number Fields, Factorizations</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">30</td>
+    <td align="center">Friday, 4/13</td>
+    <td align="center">5.4, 5.5</td>
+    <td>Euclidean Quadratic Number Fields, The Eisenstein Integers</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">31</td>
+    <td align="center">Monday, 4/16</td>
+    <td align="center">5.5</td>
+    <td>Fermat's Last Theorem for n = 3 (Sketch)</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">32</td>
+    <td align="center">Wednesday, 4/18</td>
+    <td align="center">6.1</td>
+    <td>Quadratic Residues, The Legendre Symbol</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">33</td>
+    <td align="center">Friday, 4/20</td>
+    <td align="center">6.2</td>
+    <td>Legendre Symbol, Primes Where 2 is a Quadratic Residue</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">34</td>
+    <td align="center">Monday, 4/23</td>
+    <td align="center">6.3</td>
+    <td>Quadratic Reciprocity</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">35</td>
+    <td align="center">Wednesday, 4/25</td>
+    <td align="center">7.1</td>
+    <td>Ideals as Missing Elements</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">36</td>
+    <td align="center">Friday, 4/27</td>
+    <td align="center">7.2</td>
+    <td>Dedekind Domains</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">37</td>
+    <td align="center">Monday, 4/30</td>
+    <td align="center">7.2, 7.3</td>
+    <td>Dedekind Domains, Factoring Ideals</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">38</td>
+    <td align="center">Wednesday, 5/2</td>
+    <td align="center">7.3</td>
+    <td>Unique Factorization of Ideals into Prime Ideals</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">39</td>
+    <td align="center">Friday, 5/4</td>
+    <td align="center">7.4</td>
+    <td>Class Groups</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">40</td>
+    <td align="center">Monday, 5/7</td>
+    <td align="center">8.1</td>
+    <td>Cyclotomic Polynomials</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">41</td>
+    <td align="center">Wednesday, 5/9</td>
+    <td align="center">8.1</td>
+    <td>Cyclotomic Polynomials</td>
+  </tr>
+
+
+
+ </tbody>
+</table>
+
+
+</body>
+
+</html>
+

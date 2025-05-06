@@ -1,0 +1,169 @@
+<html>
+
+<head>
+   <title>Field Theory</title>
+</head>
+
+<style>
+    <!--A{text-decoration: none;}-->
+</style>
+
+<body bgcolor="#EDDCC2" text="#000000" link="#80224A" vlink="#65002A" alink="FF0000">
+
+<center>
+  <h2><a href="index.html">Math 326</a></h2>
+  <h3>Field Theory</h3>
+</center>
+
+
+<table align="center" width=600 cellpadding=5 cellspacing=0 border=0>
+  <tbody>
+  <tr bgcolor="#CBBAA0">
+    <td width=20% align=center><a href="index.html">General Information</a></td>
+    <td width=20% align=center><a href="schedule.html">Schedule</a></td>
+    <td width=20% align=center><a href="hw.html">Homework</a></td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+  
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Homework</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+Homework will be graded on the basis of correctness, elegance, and also clarity of exposition.  You have all had experience writing mathematical proofs, and one important goal of this goal is to hone your mathematical writing skills.  You should take extra time to organize and write your solutions after you have solved the problems.  Write in complete sentences and connect mathematical symbolism with explanation.  A correct solutions which is difficult to read and understand will not receive full credit.  Think of each assignment as a small paper that you are turning in to a humanities course.
+</p>
+
+<p>
+If you enjoy working in groups, I strongly encourage you to work with others in the class to solve the homework problems.  If you do collaborative work or receive help form somebody in the course, <b>you must acknowledge this on the corresponding problem(s)</b>.  Saying "I worked with Sam on this problem" or "Mary helped me with this problem" suffices.  Failing to properly acknowledge such collaboration or assistance is a violation of academic honesty.
+</p>
+
+<p>
+If you work with others, <b>your homework must be written up independently in your own words</b>.  You can not write a communal solution and all copy it down.  You can not read one person's solution and alter it slightly in notation/exposition.  Discussing ideas and/or writing parts of computations together on whiteboards or scratch paper is perfectly fine, but you need to take those ideas and write the problem up on your own.  Under no circumstances can you look at another student's completed written work.
+</p>
+
+<p>
+I encourage you to look to other books or online sources for additional help in understanding concepts and ideas.  If you get ideas from such sources to help solve a homework problem, you must cite them.  However, you may not specifically look for solutions to homework problems online and you may not solicit help for homework problems from online forums.  Also, you may not look at past students' completed solutions.  You may ask students outside the course for help, but you need to make sure they understand the academic honesty policies for the course and you need to cite their assistance as well.
+</p>
+
+
+<table align="center" border="0" cellpadding="4" cellspacing="2" width="80%">
+  <tbody>
+  <tr bgcolor="#A99880">
+    <th width="10%">Number</th>
+    <th width="20%">Due Date</th>
+    <th width="30%">Problems</th>
+    <th width="30%">Solutions</th>
+  </tr> 
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">1</td>
+    <td align="center">Wednesday, 2/2</td>
+    <td align="center"><a href="hw1.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/xid-569448_2">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">2</td>
+    <td align="center">Wednesday, 2/9</td>
+    <td align="center"><a href="hw2.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/xid-571111_2">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">3</td>
+    <td align="center">Wednesday, 2/16</td>
+    <td align="center"><a href="hw3.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/xid-574901_2">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">4</td>
+    <td align="center">Wednesday, 2/23</td>
+    <td align="center"><a href="hw4.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/xid-577707_2">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">5</td>
+    <td align="center">Wednesday, 3/2</td>
+    <td align="center"><a href="hw5.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/xid-580653_2">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">6</td>
+    <td align="center">Wednesday, 3/9</td>
+    <td align="center"><a href="hw6.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/xid-583110_2">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 3/16</td>
+    <td align="center">No Assignment</a></td>
+    <td align="center"></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 3/23</td>
+    <td align="center">Spring Break</td>
+    <td align="center"></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 3/30</td>
+    <td align="center">Spring Break</td>
+    <td align="center"></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">7</td>
+    <td align="center">Wednesday, 4/6</td>
+    <td align="center"><a href="hw7.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/xid-589750_2">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 4/13</td>
+    <td align="center"><a href="midterm.pdf">Midterm</a></td>
+    <td align="center"></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">8</td>
+    <td align="center">Wednesday, 4/20</td>
+    <td align="center"><a href="hw8.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/xid-594411_2">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">9</td>
+    <td align="center">Wednesday, 4/27</td>
+    <td align="center"><a href="hw9.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/xid-599251_2">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">10</td>
+    <td align="center">Monday, 5/9</td>
+    <td align="center"><a href="hw10.pdf">Assignment</a></td>
+    <td align="center"></td>
+  </tr>
+
+  </tbody>
+</table>
+
+
+</body>
+
+</html>

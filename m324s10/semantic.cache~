@@ -1,0 +1,30 @@
+;; Object m324s10/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "m324s10/"
+  :tables (list 
+   (semanticdb-table "hw.html"
+    :major-mode 'html-mode
+    :tags '(("Number Theory" section nil nil [19 112]) ("Math 324" section (:members (("Math 324" section (:members (("Math 324" section nil nil [214 255]) ("Number Theory" section (:members (("General Information" section nil nil [426 507]) ("Schedule" section nil nil [507 580]) ("Homework" section nil nil [580 1781]) ("LaTeX" section nil nil [1781 3595]) ("Assignment" section nil nil [3595 3656]) ("Solutions" section nil nil [3656 3825]) ("Assignment" section nil nil [3825 3886]) ("Solutions" section nil nil [3886 4055]) ("Assignment" section nil nil [4055 4116]) ("Solutions" section nil nil [4116 4285]) ("Assignment" section nil nil [4285 4346]) ("Solutions" section nil nil [4346 4514]) ("Assignment" section nil nil [4514 4575]) ("Solutions" section nil nil [4575 4744]) ("Assignment" section nil nil [4744 4805]) ("Solutions" section nil nil [4805 4974]) ("Assignment" section nil nil [4974 5035]) ("Solutions" section nil nil [5035 5038]))) nil [255 258]))) nil [210 213]))) nil [112 118]))
+    :file "hw.html"
+    :pointmax 5692
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags '(("Number Theory" section nil nil [19 112]) ("Math 324" section (:members (("Math 324" section (:members (("Math 324" section nil nil [214 255]) ("Number Theory" section (:members (("General Information" section nil nil [426 507]) ("Schedule" section nil nil [507 580]) ("Homework" section nil nil [580 1069]) ("Current notes" section nil nil [1069 3722]) ("LaTeX" section nil nil [3722 3725]))) nil [255 258]))) nil [210 213]))) nil [112 118]))
+    :file "index.html"
+    :pointmax 7697
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "schedule.html"
+    :major-mode 'html-mode
+    :tags '(("Number Theory" section nil nil [19 112]) ("Math 324" section (:members (("Math 324" section (:members (("Math 324" section nil nil [214 255]) ("Number Theory" section (:members (("General Information" section nil nil [426 507]) ("Schedule" section nil nil [507 580]) ("Homework" section nil nil [580 583]))) nil [255 258]))) nil [210 213]))) nil [112 118]))
+    :file "schedule.html"
+    :pointmax 7922
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre3"
+  :semanticdb-version "2.0pre3"
+  )
