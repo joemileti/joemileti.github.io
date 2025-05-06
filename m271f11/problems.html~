@@ -1,0 +1,149 @@
+v<html>
+
+<head>
+   <title>Problem Solving Seminar</title>
+</head>
+
+<style>
+    <!--A{text-decoration: none;}-->
+</style>
+
+<body bgcolor="#EDDCC2" text="#000000" link="#80224A" vlink="#65002A" alink="FF0000">
+
+<center>
+  <h2><a href="index.html">Math 271</a></h2>
+  <h3>Problem Solving Seminar</h3>
+</center>
+
+
+<table align="center" width=600 cellpadding=5 cellspacing=0 border=0>
+  <tbody>
+  <tr bgcolor="#CBBAA0">
+    <td width=25% align=center><a href="index.html">General Information</a></td>
+    <td width=25% align=center><a href="problems.html">Problems</a></td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+  
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Problems</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+Problem Sets will be posted each week and will consist of 6-8 problems.  These problems will be challenging and require creative methods to solve.  The goal of the course is to learn how to approach these problems in a manner that leads to insight and hopefully complete solutions.  Although finding solutions and writing them well is the ultimate goal, our emphasis during class time is to learn techniques that help to achieve this end.
+</p>
+
+<p>
+One goal of the course is to prepare students to take the Putnam Exam.  Thus, unlike many other math classes were collaboration is encouraged, in this course you should try to solve the problems on your own.  You also may not look up solutions to these problem online or in books.
+</p>
+
+<table align="center" border="0" cellpadding="4" cellspacing="2" width="70%">
+  <tbody>
+  <tr bgcolor="#A99880">
+    <th width="15%">Number</th>
+    <th width="25%">Class Date</th>
+    <th width="40%">Problems</th>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">1</td>
+    <td align="center">Thursday, 9/1</td>
+    <td align="center"><a href="problems1.pdf">Problem Set</a></td>
+  </tr>  
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">2</td>
+    <td align="center">Thursday, 9/8</td>
+    <td align="center"><a href="problems2.pdf">Problem Set</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">3</td>
+    <td align="center">Thursday, 9/15</td>
+    <td align="center"><a href="problems3.pdf">Problem
+    Set</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">4</td>
+    <td align="center">Thursday, 9/22</td>
+    <td align="center"><a href="problems4.pdf">Problem
+    Set</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">5</td>
+    <td align="center">Thursday, 9/29</td>
+    <td align="center"><a href="problems5.pdf">Problem
+    Set</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">6</td>
+    <td align="center">Thursday, 10/6</td>
+    <td align="center"><a href="problems6.pdf">Problem Set</a><br>Unclaimed: #5</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">7</td>
+    <td align="center">Thursday, 10/13</td>
+    <td align="center"><a href="problems7.pdf">Problem
+    Set</a><br>Unclaimed: #5, 7</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">8</td>
+    <td align="center">Thursday, 10/27</td>
+    <td align="center"><a href="problems8.pdf">Problem
+    Set</a><br>Unclaimed: #7</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">9</td>
+    <td align="center">Thursday, 11/3</td>
+    <td align="center"><a href="problems9.pdf">Problem
+    Set</a><br>Unclaimed: #5</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">10</td>
+    <td align="center">Thursday, 11/10</td>
+    <td align="center"><a href="problems10.pdf">Problem
+    Set</a><br>Unclaimed: #7</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">11</td>
+    <td align="center">Thursday, 11/17</td>
+    <td align="center"><a href="problems11.pdf">Problem
+    Set</a><br>Unclaimed: #6</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">12</td>
+    <td align="center">Thursday, 12/1</td>
+    <td align="center"><a href="problems12.pdf">Problem
+    Set</a><br>Unclaimed: #5, 6, 7</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">13</td>
+    <td align="center">Thursday, 12/8</td>
+    <td align="center"><a href="problems13.pdf">Problem
+    Set</a><br>Unclaimed: #4, 5, 6, 7</td>
+  </tr>
+
+
+  </tbody>
+</table>
+
+
+</body>
+
+</html>
