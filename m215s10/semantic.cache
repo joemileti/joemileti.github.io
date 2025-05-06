@@ -1,0 +1,30 @@
+;; Object m215s10/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "m215s10/"
+  :tables (list 
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags '(("Linear Algebra" section nil nil [19 113]) ("Math 215" section (:members (("Math 215" section (:members (("Math 215" section nil nil [215 256]) ("Linear Algebra" section (:members (("General Information" section nil nil [428 509]) ("Schedule" section nil nil [509 582]) ("Homework" section nil nil [582 947]) ("website" section nil nil [947 950]))) nil [256 259]))) nil [211 214]))) nil [113 119]))
+    :file "index.html"
+    :pointmax 8136
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "hw.html"
+    :major-mode 'html-mode
+    :tags '(("Linear Algebra" section nil nil [19 113]) ("Math 215" section (:members (("Math 215" section (:members (("Math 215" section nil nil [215 256]) ("Linear Algebra" section (:members (("General Information" section nil nil [428 509]) ("Schedule" section nil nil [509 582]) ("Homework" section nil nil [582 585]))) nil [256 259]))) nil [211 214]))) nil [113 119]))
+    :file "hw.html"
+    :pointmax 7660
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "schedule.html"
+    :major-mode 'html-mode
+    :tags '(("Linear Algebra" section nil nil [19 113]) ("Math 215" section (:members (("Math 215" section (:members (("Math 215" section nil nil [215 256]) ("Linear Algebra" section (:members (("General Information" section nil nil [428 509]) ("Schedule" section nil nil [509 582]) ("Homework" section nil nil [582 585]))) nil [256 259]))) nil [211 214]))) nil [113 119]))
+    :file "schedule.html"
+    :pointmax 7033
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre3"
+  :semanticdb-version "2.0pre3"
+  )
