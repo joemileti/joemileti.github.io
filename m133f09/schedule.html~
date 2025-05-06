@@ -1,0 +1,366 @@
+<html>
+
+<head>
+   <title>Calculus II</title>
+</head>
+
+<style>
+    <!--A{text-decoration: none;}-->
+</style>
+
+<body bgcolor="#EDDCC2" text="#000000" link="#80224A" vlink="#65002A" alink="FF0000">
+
+<center>
+  <h2><a href="index.html">Math 133</a></h2>
+  <h3>Calculus II</h3>
+</center>
+
+
+<table align="center" width=600 cellpadding=5 cellspacing=0 border=0>
+  <tbody>
+  <tr bgcolor="#CBBAA0">
+    <td width=20% align=center><a href="index.html">General Information</a></td>
+    <td width=20% align=center><a href="schedule.html">Schedule</a></td>
+    <td width=20% align=center><a href="hw.html">Homework</a></td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Schedule</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+We will cover most of the material in Chapters 8, 9, 11, 13, 14, 15, and 16 of the textbook.
+</p>
+
+<table align="center" border="0" cellpadding="4" cellspacing="2" width="100%">
+  <tbody>
+  <tr bgcolor="#A99880">
+    <th width="10%">Class Number</th>
+    <th width="20%">Date</th>
+    <th width="10%">Sections in Text</th>
+    <th width="60%">Brief Description</th>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">1</td>
+    <td align="center">Friday, 8/28</td>
+    <td align="center">8.1</td>
+    <td>Introduction, Quick Review of u-substitution, Integration by Parts</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">2</td>
+    <td align="center">Monday, 8/31</td>
+    <td align="center">8.1, 8.2</td>
+    <td>Integration by Parts, Trigonometric Integrals</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">3</td>
+    <td align="center">Wednesday, 9/2</td>
+    <td align="center">8.3</td>
+    <td>Integration by Trigonometric Substitution</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">4</td>
+    <td align="center">Friday, 9/4</td>
+    <td align="center">8.4</td>
+    <td>Integration by Partial Fractions</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">5</td>
+    <td align="center">Monday, 9/7</td>
+    <td align="center">8.7, 8.8</td>
+    <td>Numerical Integration, Improper Integrals</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">6</td>
+    <td align="center">Wednesday, 9/9</td>
+    <td align="center">8.8, 9.1</td>
+    <td>Improper Integrals, Arc Length</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">7</td>
+    <td align="center">Friday, 9/11</td>
+    <td align="center">9.2</td>
+    <td>Area of a Surface of Revolution</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">8</td>
+    <td align="center">Monday, 9/14</td>
+    <td align="center">11.1</td>
+    <td>Diatribe about "Plugging in Infinity", Parametric Equations</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">9</td>
+    <td align="center">Wednesday, 9/16</td>
+    <td align="center">11.1, 11.2</td>
+    <td>Cycloids, Tangents to Parametric Curves</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">10</td>
+    <td align="center">Friday, 9/18</td>
+    <td align="center">-</td>
+    <td>First Exam</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">11</td>
+    <td align="center">Monday, 9/21</td>
+    <td align="center">11.2</td>
+    <td>Doing Calculus with Parametric Curves</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">12</td>
+    <td align="center">Wednesday, 9/23</td>
+    <td align="center">11.3</td>
+    <td>Polar Coordinates</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">13</td>
+    <td align="center">Friday, 9/25</td>
+    <td align="center">11.4</td>
+    <td>Areas and Lengths in Polar Coordinates</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">14</td>
+    <td align="center">Monday, 9/28</td>
+    <td align="center">13.1, 13.2</td>
+    <td>Higher Dimensions, Vectors</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">15</td>
+    <td align="center">Wednesday, 9/30</td>
+    <td align="center">13.3, 13.4</td>
+    <td>The Dot Product and Cross Product</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">16</td>
+    <td align="center">Friday, 10/2</td>
+    <td align="center">13.4, 13.5</td>
+    <td>Cross Product, Equations of Lines and Planes</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">17</td>
+    <td align="center">Monday, 10/5</td>
+    <td align="center">13.5, 13.6</td>
+    <td>Equations of Planes and Quadric Surfaces</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">18</td>
+    <td align="center">Wednesday, 10/7</td>
+    <td align="center">14.1, 14.2</td>
+    <td>Vector Valued Functions, Tangents</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">19</td>
+    <td align="center">Friday, 10/9</td>
+    <td align="center">14.4</td>
+    <td>Motion in Space</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">20</td>
+    <td align="center">Monday, 10/12</td>
+    <td align="center">-</td>
+    <td>Second Exam</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">21</td>
+    <td align="center">Wednesday, 10/14</td>
+    <td align="center">15.1, 15.2</td>
+    <td>Functions of Several Variables, Limits and Continuity</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">22</td>
+    <td align="center">Friday, 10/16</td>
+    <td align="center">15.3</td>
+    <td>Partial Derivatives</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">-</td>
+    <td align="center">Monday, 10/19</td>
+    <td align="center">-</td>
+    <td>Fall Break</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 10/21</td>
+    <td align="center">-</td>
+    <td>Fall Break</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 10/23</td>
+    <td align="center">-</td>
+    <td>Fall Break</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">23</td>
+    <td align="center">Monday, 10/26</td>
+    <td align="center">15.3, 15.4</td>
+    <td>Partial Derivatives, Tangent Planes, The Derivative</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">24</td>
+    <td align="center">Wednesday, 10/28</td>
+    <td align="center">15.4, 15.5</td>
+    <td>The Derivative, The Chain Rule</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">25</td>
+    <td align="center">Friday, 10/30</td>
+    <td align="center">15.5</td>
+    <td>The Chain Rule, Implicit Differentiation</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">26</td>
+    <td align="center">Monday, 11/2</td>
+    <td align="center">15.6</td>
+    <td>Directional Derivatives, The Gradient</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">27</td>
+    <td align="center">Wednesday, 11/4</td>
+    <td align="center">15.6, 15.7</td>
+    <td>The Gradient, Local Max/Mins</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 11/6</td>
+    <td align="center">-</td>
+    <td>Class Canceled</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">28</td>
+    <td align="center">Monday, 11/8</td>
+    <td align="center">15.7</td>
+    <td>Second Derivative Test, Absolute Max/Mins</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">29</td>
+    <td align="center">Wednesday, 11/11</td>
+    <td align="center">15.7, 15.8</td>
+    <td>Absolute Max/Mins, Lagrange Multipliers</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">30</td>
+    <td align="center">Friday, 11/13</td>
+    <td align="center">15.8</td>
+    <td>Lagrange Multipliers</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">31</td>
+    <td align="center">Monday, 11/16</td>
+    <td align="center">15.8, 16.1</td>
+    <td>Lagrange Multipliers, Double Integrals</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">32</td>
+    <td align="center">Wednesday, 11/18</td>
+    <td align="center">16.2</td>
+    <td>Iterated Integrals</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">33</td>
+    <td align="center">Friday, 11/20</td>
+    <td align="center">-</td>
+    <td>Third Exam</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">34</td>
+    <td align="center">Monday, 11/23</td>
+    <td align="center">16.3</td>
+    <td>Double Integrals over General Regions</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">35</td>
+    <td align="center">Wednesday, 11/25</td>
+    <td align="center">16.4</td>
+    <td>Double Integrals in Polar Coordinates</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 11/27</td>
+    <td align="center">-</td>
+    <td>Thanksgiving Break</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">36</td>
+    <td align="center">Monday, 11/30</td>
+    <td align="center">16.4, 16.5</td>
+    <td>Polar Coordinates, Applications of Double Integrals</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">37</td>
+    <td align="center">Wednesday, 12/2</td>
+    <td align="center">16.6, 16.7</td>
+    <td>Triple Integrals, Cylindrical Coordinates</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">38</td>
+    <td align="center">Friday, 12/4</td>
+    <td align="center">16.7, 16.8</td>
+    <td>Integration in Cylindrical Coordinates, Spherical Coordinates</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">39</td>
+    <td align="center">Monday, 12/7</td>
+    <td align="center">16.8</td>
+    <td>Integration in Spherical Coordinates</td>
+  </tr>
+
+ </tbody>
+</table>
+
+</body>
+
+</html>
+
