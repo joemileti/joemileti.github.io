@@ -1,0 +1,367 @@
+<html>
+
+<head>
+   <title>Linear Algebra</title>
+</head>
+
+<style>
+    <!--A{text-decoration: none;}-->
+</style>
+
+<body bgcolor="#EDDCC2" text="#000000" link="#80224A" vlink="#65002A" alink="FF0000">
+
+<center>
+  <h2><a href="index.html">Math 215</a></h2>
+  <h3>Linear Algebra</h3>
+</center>
+
+
+<table align="center" width=600 cellpadding=5 cellspacing=0 border=0>
+  <tbody>
+  <tr bgcolor="#CBBAA0">
+    <td width=20% align=center><a href="index.html">General Information</a></td>
+    <td width=20% align=center><a href="schedule.html">Schedule</a></td>
+    <td width=20% align=center><a href="hw.html">Homework</a></td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+  
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Homework</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+Problem Sets will be due on most Mondays and Fridays, and will be posted to the course webpage.  They will contain a mixture of computational exercises, explanations, and short proofs.
+</p>
+
+<p>
+Written Assignments will be due on most Wednesdays.  These problems either are more theoretical or require explanation above and beyond those on the Problem Sets.  Your solutions should consist of careful explanations written in complete sentences (augmented by mathematical symbolism where appropriate).  A major goal of these problems is to teach the fundamentals of mathematical language and mathematical inferences, along with proper use of terminology and notation.  As a result, they will be graded at a high standard involving much more than getting the "correct answer".
+</p>
+
+<p>
+Homework must be turned in at the beginning of class.  Please take the time to write your solutions neatly and carefully, and staple any homework that has more than one page.
+</p>
+
+<p>
+If you enjoy working in groups, I strongly encourage you to work with others in the class to solve the homework problems.  If you do collaborative work or receive help form somebody in the course, <b>you must acknowledge this on the corresponding problem(s)</b>.  Saying "I worked with Sam on this problem" or "Mary helped me with this problem" suffices.  You should also credit David for help that he provides.  You may ask students outside the course for help, but you need to make sure they understand the academic honesty policies for the course and you need to cite their assistance as well.  Failing to acknowledge such collaboration or assistance is a violation of academic honesty.
+</p>
+
+<p>
+If you work with others, <b>your homework must be written up independently in your own words</b>.  You can not write a communal solution and all copy it down.  You can not read one person's solution and alter it slightly in notation/exposition.  Discussing ideas and/or writing parts of computations together on whiteboards or scratch paper is perfectly fine, but you need to take those ideas and write the problem up on your own.  Under no circumstances can you look at another student's completed written work.
+</p>
+
+<p>
+You may look at sources other than our textbook, but <b>you must cite other books or online sources if they provide you with an idea that helps you solve a problem</b>.  However, you may not specifically look for solutions to homework problems, and you may not solicit help for homework problems from online forums.  
+</p>
+
+
+<table align="center" border="0" cellpadding="4" cellspacing="2" width="80%">
+  <tbody>
+  <tr bgcolor="#A99880">
+    <th width="10%">Number</th>
+    <th width="20%">Due Date</th>
+    <th width="30%">Assignment</th>
+    <th width="30%">Solutions</th>
+  </tr> 
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-1</td>
+    <td align="center">Friday, 9/5</td>
+    <td align="center"><a href="ps1.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-358044-dt-content-rid-1294782_2/courses/F14-MAT215-01-02/ps1-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-2</td>
+    <td align="center">Monday, 9/8</td>
+    <td align="center"><a href="ps2.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-358649-dt-content-rid-1297052_2/courses/F14-MAT215-01-02/ps2-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WA-1</td>
+    <td align="center">Wednesday, 9/10</td>
+    <td align="center"><a href="wa1.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-358902-dt-content-rid-1297835_2/courses/F14-MAT215-01-02/wa1-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-3</td>
+    <td align="center">Friday, 9/12</td>
+    <td align="center"><a href="ps3.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-359184-dt-content-rid-1299509_2/courses/F14-MAT215-01-02/ps3-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-4</td>
+    <td align="center">Monday, 9/15</td>
+    <td align="center"><a href="ps4.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-359570-dt-content-rid-1301047_2/courses/F14-MAT215-01-02/ps4-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WA-2</td>
+    <td align="center">Wednesday, 9/17</td>
+    <td align="center"><a href="wa2.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-359957-dt-content-rid-1302420_2/courses/F14-MAT215-01-02/wa2-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-5</td>
+    <td align="center">Friday, 9/19</td>
+    <td align="center"><a href="ps5.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-360043-dt-content-rid-1302848_2/courses/F14-MAT215-01-02/ps5-sol.pdf">Solutions</a></td>
+  </tr>
+
+ <tr bgcolor="#DCCBB0">
+    <td align="center">PS-6</td>
+    <td align="center">Monday, 9/22</td>
+    <td align="center"><a href="ps6.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-360376-dt-content-rid-1304391_2/courses/F14-MAT215-01-02/ps6-sol.pdf">Solutions</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 9/24</td>
+    <td align="center">No Assignment</td>
+    <td align="center">-</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 9/26</td>
+    <td align="center">No Assignment (Exam Today)</td>
+    <td align="center">-</td>
+  </tr>
+
+ <tr bgcolor="#DCCBB0">
+    <td align="center">PS-7</td>
+    <td align="center">Monday, 9/29</td>
+    <td align="center"><a href="ps7.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-361041-dt-content-rid-1309162_2/courses/F14-MAT215-01-02/ps7-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WA-3</td>
+    <td align="center">Wednesday, 10/1</td>
+    <td align="center"><a href="wa3.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-361139-dt-content-rid-1309689_2/courses/F14-MAT215-01-02/wa3-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-8</td>
+    <td align="center">Friday, 10/3</td>
+    <td align="center"><a href="ps8.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-361521-dt-content-rid-1311938_2/courses/F14-MAT215-01-02/ps8-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-9</td>
+    <td align="center">Monday, 10/6</td>
+    <td align="center"><a href="ps9.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-361647-dt-content-rid-1313055_2/courses/F14-MAT215-01-02/ps9-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WA-4</td>
+    <td align="center">Wednesday, 10/8</td>
+    <td align="center"><a href="wa4.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-361868-dt-content-rid-1314451_2/courses/F14-MAT215-01-02/wa4-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-10</td>
+    <td align="center">Friday, 10/10</td>
+    <td align="center"><a href="ps10.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-362111-dt-content-rid-1315756_2/courses/F14-MAT215-01-02/ps10-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-11</td>
+    <td align="center">Monday, 10/13</td>
+    <td align="center"><a href="ps11.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-362283-dt-content-rid-1317131_2/courses/F14-MAT215-01-02/ps11-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WA-5</td>
+    <td align="center">Wednesday, 10/15</td>
+    <td align="center"><a href="wa5.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-362407-dt-content-rid-1317724_2/courses/F14-MAT215-01-02/wa5-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-12</td>
+    <td align="center">Friday, 10/17</td>
+    <td align="center"><a href="ps12.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-362536-dt-content-rid-1318658_2/courses/F14-MAT215-01-02/ps12-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#A99880">
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">Fall Break</td>
+    <td align="center">-</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">-</td>
+    <td align="center">Monday, 10/27</td>
+    <td align="center">No Assignment</td>
+    <td align="center">-</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">PS-13</td>
+    <td align="center">Wednesday, 10/29</td>
+    <td align="center"><a href="ps13.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-363055-dt-content-rid-1320792_2/courses/F14-MAT215-01-02/ps13-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 10/31</td>
+    <td align="center">No Assignment (Exam Today)</td>
+    <td align="center">-</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-14</td>
+    <td align="center">Monday, 11/3</td>
+    <td align="center"><a href="ps14.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-363556-dt-content-rid-1323133_2/courses/F14-MAT215-01-02/ps14-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WA-6</td>
+    <td align="center">Wednesday, 11/5</td>
+    <td align="center"><a href="wa6.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-363863-dt-content-rid-1324293_2/courses/F14-MAT215-01-02/wa6-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-15</td>
+    <td align="center">Friday, 11/7</td>
+    <td align="center"><a href="ps15.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-363864-dt-content-rid-1324294_2/courses/F14-MAT215-01-02/ps15-sol.pdf">Solutions</a>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-16</td>
+    <td align="center">Monday, 11/10</td>
+    <td align="center"><a href="ps16.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-365163-dt-content-rid-1327919_2/courses/F14-MAT215-01-02/ps16-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WA-7</td>
+    <td align="center">Wednesday, 11/12</td>
+    <td align="center"><a href="wa7.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-367813-dt-content-rid-1332492_2/courses/F14-MAT215-01-02/wa7-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-17</td>
+    <td align="center">Friday, 11/14</td>
+    <td align="center"><a href="ps17.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-367814-dt-content-rid-1332493_2/courses/F14-MAT215-01-02/ps17-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-18</td>
+    <td align="center">Monday, 11/17</td>
+    <td align="center"><a href="ps18.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-368464-dt-content-rid-1335157_2/courses/F14-MAT215-01-02/ps18-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WA-8</td>
+    <td align="center">Wednesday, 11/19</td>
+    <td align="center"><a href="wa8.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-368465-dt-content-rid-1335169_2/courses/F14-MAT215-01-02/wa8-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-19</td>
+    <td align="center">Friday, 11/21</td>
+    <td align="center"><a href="ps19.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-368622-dt-content-rid-1336398_2/courses/F14-MAT215-01-02/ps19-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-20</td>
+    <td align="center">Monday, 11/24</td>
+    <td align="center"><a href="ps20.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-369021-dt-content-rid-1337995_2/courses/F14-MAT215-01-02/ps20-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WA-9</td>
+    <td align="center">Wednesday, 11/26</td>
+    <td align="center"><a href="wa9.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-369176-dt-content-rid-1339085_2/courses/F14-MAT215-01-02/wa9-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 11/28</td>
+    <td align="center">Thanksgiving Break</td>
+    <td align="center">-</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">-</td>
+    <td align="center">Monday, 12/1</td>
+    <td align="center">No Assignment</td>
+    <td align="center">-</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 12/3</td>
+    <td align="center">No Assignment (Exam Today)</td>
+    <td align="center">-</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-21</td>
+    <td align="center">Friday, 12/5</td>
+    <td align="center"><a href="ps21.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-370066-dt-content-rid-1345028_2/courses/F14-MAT215-01-02/ps21-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-22</td>
+    <td align="center">Monday, 12/8</td>
+    <td align="center"><a href="ps22.pdf">Assignment</a></td>
+    <td align="center"><a href="https://pioneerweb.grinnell.edu/bbcswebdav/pid-370255-dt-content-rid-1346386_2/courses/F14-MAT215-01-02/ps22-sol.pdf">Solutions</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 12/10</td>
+    <td align="center">No Assignment</td>
+    <td align="center">-</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-23</td>
+    <td align="center">Friday, 12/12</td>
+    <td align="center"><a href="ps23.pdf">Assignment</a></td>
+    <td align="center"></td>
+  </tr>
+
+  </tbody>
+</table>
+
+
+
+</body>
+
+</html>

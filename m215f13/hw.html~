@@ -1,0 +1,346 @@
+<html>
+
+<head>
+   <title>Linear Algebra</title>
+</head>
+
+<style>
+    <!--A{text-decoration: none;}-->
+</style>
+
+<body bgcolor="#EDDCC2" text="#000000" link="#80224A" vlink="#65002A" alink="FF0000">
+
+<center>
+  <h2><a href="index.html">Math 215</a></h2>
+  <h3>Linear Algebra</h3>
+</center>
+
+
+<table align="center" width=600 cellpadding=5 cellspacing=0 border=0>
+  <tbody>
+  <tr bgcolor="#CBBAA0">
+    <td width=20% align=center><a href="index.html">General Information</a></td>
+    <td width=20% align=center><a href="schedule.html">Schedule</a></td>
+    <td width=20% align=center><a href="hw.html">Homework</a></td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+  
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Homework</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+Problem Sets will be due on most Mondays and Fridays, and will be posted to the course webpage.  They will contain a mixture of computational exercises, explanations, and short proofs.
+</p>
+
+<p>
+Written Assignments will be due on most Wednesdays.  These problems either are more theoretical or require explanation above and beyond those on the Problem Sets.  Your solutions should consist of careful explanations written in complete sentences (augmented by mathematical symbolism where appropriate).  A major goal of these problems is to teach the fundamentals of mathematical language and mathematical inferences, along with proper use of terminology and notation.  As a result, they will be graded at a high standard involving much more than getting the "correct answer".
+</p>
+
+<p>
+Homework must be turned in at the beginning of class.  Please take the time to write your solutions neatly and carefully, and staple any homework that has more than one page.
+</p>
+
+<p>
+If you enjoy working in groups, I strongly encourage you to work with others in the class to solve the homework problems.  If you do collaborative work or receive help form somebody in the course, <b>you must acknowledge this on the corresponding problem(s)</b>.  Saying "I worked with Sam on this problem" or "Mary helped me with this problem" suffices.  You should also credit Evangelos for help that he provides.  You may ask students outside the course for help, but you need to make sure they understand the academic honesty policies for the course and you need to cite their assistance as well.  Failing to acknowledge such collaboration or assistance is a violation of academic honesty.
+</p>
+
+<p>
+If you work with others, <b>your homework must be written up independently in your own words</b>.  You can not write a communal solution and all copy it down.  You can not read one person's solution and alter it slightly in notation/exposition.  Discussing ideas and/or writing parts of computations together on whiteboards or scratch paper is perfectly fine, but you need to take those ideas and write the problem up on your own.  Under no circumstances can you look at another student's completed written work.
+</p>
+
+<p>
+You may look at sources other than our textbook, but <b>you must cite other books or online sources if they provide you with an idea that helps you solve a problem</b>.  However, you may not specifically look for solutions to homework problems, and you may not solicit help for homework problems from online forums.  
+</p>
+
+
+<table align="center" border="0" cellpadding="4" cellspacing="2" width="80%">
+  <tbody>
+  <tr bgcolor="#A99880">
+    <th width="10%">Number</th>
+    <th width="20%">Due Date</th>
+    <th width="50%">Problem Set</th>
+  </tr> 
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-1</td>
+    <td align="center">Friday, 9/6</td>
+    <td>Section 1.I.1: #1.17ab, 1.18cde, 1.20, 1.22ab, 1.24</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-2</td>
+    <td align="center">Monday, 9/9</td>
+    <td>Section 1.I.1: #1.19, 1.23ab, 1.25, 1.28, 1.30<br>Section 1.I.3:
+    #3.14acef</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WR-1</td>
+    <td align="center">Wednesday, 9/11</td>
+    <td><a href="written1.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-3</td>
+    <td align="center">Friday, 9/13</td>
+    <td>Section 1.I.3: #3.15bd, 3.16c, 3.17cd, 3.18abc,
+    3.24ab, <a href="ps3-extra.pdf">Extra Problem</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-4</td>
+    <td align="center">Monday, 9/16</td>
+    <td>Section 1.I.3: #3.25abc, <a href="ps4-extra.pdf">Extra Problems</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WR-2</td>
+    <td align="center">Wednesday, 9/18</td>
+    <td><a href="written2.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-5</td>
+    <td align="center">Friday, 9/20</td>
+    <td>Section 1.III.2: #2.10ab, 2.11abc, 2.12abc, 2.14ade, 2.15ac</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-6</td>
+    <td align="center">Monday, 9/23</td>
+    <td>Section 1.IV.2: #2.5d, 2.6d, 2.7ab, 2.10<br>Section 1.IV.3:
+    #3.10abd, 3.14ab</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 9/25</td>
+    <td>No Assignment (Exam Today)</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-7</td>
+    <td align="center">Friday, 9/27</td>
+    <td>Section 2.I.1: #1.17abc, 1.18abc, 1.19b, 1.24abcde, 1.27, 1.29abc</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-8</td>
+    <td align="center">Monday, 9/30</td>
+    <td>Section 2.I.1: #1.25, 1.28a, 1.30b, 1.32a<br>Section 2.I.2:
+    #2.13abcd, 2.14, 2.15</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WR-3</td>
+    <td align="center">Wednesday, 10/2</td>
+    <td><a href="written3.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-9</td>
+    <td align="center">Friday, 10/4</td>
+    <td>Section 2.I.2: #2.16ab<br>Section 2.I.3: #3.7bc, 3.8abcd, 3.9b,
+    3.10de, 3.11ad, 3.16</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-10</td>
+    <td align="center">Monday, 10/7</td>
+    <td>Section 2.I.3: #3.15ab, 3.22c, 3.25c<br>Section 2.II.1: #1.11acd, 1.12ac</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WR-4</td>
+    <td align="center">Wednesday, 10/9</td>
+    <td><a href="written4.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-11</td>
+    <td align="center">Friday, 10/11</td>
+    <td>Section 2.II.2: #2.17abc, 2.21<br>Section 2.III.1: #1.14bcd, 1.15,
+    1.16abc, 1.17, 1.18</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-12</td>
+    <td align="center">Monday, 10/14</td>
+    <td>Section 2.III.1: #1.21c, 1.22a, 1.23b, 1.27bc, 1.30cd<br>Section
+    2.III.2: #2.14, 2.16bc</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WR-5</td>
+    <td align="center">Wednesday, 10/16</td>
+    <td><a href="written5.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-13</td>
+    <td align="center">Friday, 10/18</td>
+    <td>Section 2.IV.1: #1.12b, 1.13, 1.15bc<br>Section 2.IV.3: #3.3abc,
+    3.9 (give square matrices as examples), 3.10, 3.11ab</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">-</td>
+    <td align="center">Monday, 10/21</td>
+    <td>Fall Break</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 10/23</td>
+    <td>Fall Break</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 10/25</td>
+    <td>Fall Break</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">-</td>
+    <td align="center">Monday, 10/28</td>
+    <td>No Assignment</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">PS-14</td>
+    <td align="center">Wednesday, 10/30</td>
+    <td>Section 3.I.1: #1.7, 1.8, 1.9, 1.10ab, 1.13<br>Section 3.I.2:
+    #2.8ab, 2.9abc, 2.11abc</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 11/1</td>
+    <td>No Assignment (Exam Today)</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-15</td>
+    <td align="center">Monday, 11/4</td>
+    <td>Section 3.I.3: #10ab, 12abc, 13ab<br>Section 3.II.1: #6abc, 8a, 10a</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WR-6</td>
+    <td align="center">Wednesday, 11/6</td>
+    <td><a href="written6.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-16</td>
+    <td align="center">Friday, 11/8</td>
+    <td>Section 3.II.2: #7ab, 8ac, 10, 12<br>Section 3.II.3: #8abcd,
+    9abc, 12</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-17</td>
+    <td align="center">Monday, 11/11</td>
+    <td>Section 3.III.1: #7, 8abcde, 9, 10, 11c<br>Section 3.III.2: #12abcde,
+    13, 14, 15c</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WR-7</td>
+    <td align="center">Wednesday, 11/13</td>
+    <td><a href="written7.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-18</td>
+    <td align="center">Friday, 11/15</td>
+    <td>Section 3.III.2: #2.17b, 2.18abc<br>Section 3.III.3: #12 (you can
+    do this without finding N(t)), 13<br>Section 4.I.1: #13abc, 15, 16, 18ab, 20</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-19</td>
+    <td align="center">Monday, 11/18</td>
+    <td>Section 4.I.1: #19cd, 21, 22a, 24ab, 27ab<br>Section 4.I.3: #8,
+    9ab, 11</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 11/20</td>
+    <td>No Assignment</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-20</td>
+    <td align="center">Friday, 11/22</td>
+    <td>Section 4.II.1: #8ab, 9a, 10ab, 11b<br>Section 4.II.2: #19, 21a,
+    24abcd, 27<br>Section 4.II.3: #26</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-21</td>
+    <td align="center">Monday, 11/25</td>
+    <td>Section 4.II.4: #15bcde, 16, 17ab, 20, 22, 26<br>Section 4.III.1:
+    #7ab, 8ad, 10b</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WR-8</td>
+    <td align="center">Wednesday, 11/27</td>
+    <td><a href="written8.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 11/29</td>
+    <td>Thanksgiving Break</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">-</td>
+    <td align="center">Monday, 12/2</td>
+    <td>No Assignment</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 12/4</td>
+    <td>No Assignment (Exam Today)</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">PS-22</td>
+    <td align="center">Friday, 12/6</td>
+    <td><a href="ps22.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">PS-23</td>
+    <td align="center">Monday, 12/9</td>
+    <td><a href="ps23.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">WR-9</td>
+    <td align="center">Wednesday, 12/11</td>
+    <td><a href="written9.pdf">Assignment</a></td>
+  </tr>
+
+  </tbody>
+</table>
+
+
+
+</body>
+
+</html>

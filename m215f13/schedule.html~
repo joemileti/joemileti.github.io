@@ -1,0 +1,381 @@
+<html>
+
+<head>
+   <title>Linear Algebra</title>
+</head>
+
+<style>
+    <!--A{text-decoration: none;}-->
+</style>
+
+<body bgcolor="#EDDCC2" text="#000000" link="#80224A" vlink="#65002A" alink="FF0000">
+
+<center>
+  <h2><a href="index.html">Math 215</a></h2>
+  <h3>Linear Algebra</h3>
+</center>
+
+
+<table align="center" width=600 cellpadding=5 cellspacing=0 border=0>
+  <tbody>
+  <tr bgcolor="#CBBAA0">
+    <td width=20% align=center><a href="index.html">General Information</a></td>
+    <td width=20% align=center><a href="schedule.html">Schedule</a></td>
+    <td width=20% align=center><a href="hw.html">Homework</a></td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Schedule</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+We will cover all of the material in the book, along with a few additional topics  (where I will provide supplementary notes).
+</p>
+
+<table align="center" border="0" cellpadding="4" cellspacing="2" width="100%">
+  <tbody>
+  <tr bgcolor="#A99880">
+    <th width="10%">Class Number</th>
+    <th width="20%">Date</th>
+    <th width="10%">Sections in Text</th>
+    <th width="60%">Brief Description</th>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">1</td>
+    <td align="center">Friday, 8/30</td>
+    <td align="center">-</td>
+    <td>Introduction, Overview of Linear Algebra, Solving Equations</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">2</td>
+    <td align="center">Monday, 9/2</td>
+    <td align="center">1.I.1</td>
+    <td>Systems of Linear Equations, Set Notation, Gauss's Method</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">3</td>
+    <td align="center">Wednesday, 9/4</td>
+    <td align="center">1.I.1</td>
+    <td>Proving Gauss's Method Preserves Solutions, Examples</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">4</td>
+    <td align="center">Friday, 9/6</td>
+    <td align="center">1.I.2, 1.I.3</td>
+    <td>Describing Solution Sets, Encoding With Matrices</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">5</td>
+    <td align="center">Monday, 9/9</td>
+    <td align="center">1.II.1</td>
+    <td>Proving Universal Statements, Mathematical Induction</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">6</td>
+    <td align="center">Wednesday, 9/11</td>
+    <td align="center">1.II.1, 1.II.2</td>
+    <td>Regular and Strong Induction</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">7</td>
+    <td align="center">Friday, 9/13</td>
+    <td align="center">1.III.1</td>
+    <td>Homogeneous Linear Systems</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">8</td>
+    <td align="center">Monday, 9/16</td>
+    <td align="center">1.III.2</td>
+    <td>Nonhomogeneous Systems</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">9</td>
+    <td align="center">Wednesday, 9/18</td>
+    <td align="center">1.III.2, 1.IV.1, 1.IV.2</td>
+    <td>Singular Matrices, Gauss-Jordan Reduction, Row Equivalence</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">10</td>
+    <td align="center">Friday, 9/20</td>
+    <td align="center">1.IV.3, 2.I.1</td>
+    <td>Linear Combinations and Row Equivalence, Vector Spaces</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">11</td>
+    <td align="center">Monday, 9/23</td>
+    <td align="center">2.I.1</td>
+    <td>Vector Spaces</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">12</td>
+    <td align="center">Wednesday, 9/25</td>
+    <td align="center">-</td>
+    <td>First Exam</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">13</td>
+    <td align="center">Friday, 9/27</td>
+    <td align="center">2.I.2, 2.I.3</td>
+    <td>Subspaces, Spans</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">14</td>
+    <td align="center">Monday, 9/30</td>
+    <td align="center">2.I.3</td>
+    <td>Spans</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">15</td>
+    <td align="center">Wednesday, 10/2</td>
+    <td align="center">2.II.1</td>
+    <td>Linear Independence</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">16</td>
+    <td align="center">Friday, 10/4</td>
+    <td align="center">2.II.2</td>
+    <td>Spans and Linear Independence</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">17</td>
+    <td align="center">Monday, 10/7</td>
+    <td align="center">2.II.2, 2.III.1</td>
+    <td>Spans and Linear Independence, Bases</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">18</td>
+    <td align="center">Wednesday, 10/9</td>
+    <td align="center">2.III.1, 2.III.2</td>
+    <td>Bases and Dimension</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">19</td>
+    <td align="center">Friday, 10/11</td>
+    <td align="center">2.III.2</td>
+    <td>Dimension of a Vector Space</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">20</td>
+    <td align="center">Monday, 10/14</td>
+    <td align="center">2.IV.1, 2.IV.2</td>
+    <td>Row Space and Column Space of a Matrix</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">21</td>
+    <td align="center">Wednesday, 10/16</td>
+    <td align="center">2.IV.3, 3.I.1</td>
+    <td>Rank of a Matrix, Linear Transformations</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">22</td>
+    <td align="center">Friday, 10/18</td>
+    <td align="center">3.I.1, 3.I.2, 3.I.3</td>
+    <td>Surjective and Injective Linear Transformations</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">-</td>
+    <td align="center">Monday, 10/21</td>
+    <td align="center">-</td>
+    <td>Fall Break</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 10/23</td>
+    <td align="center">-</td>
+    <td>Fall Break</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 10/25</td>
+    <td align="center">-</td>
+    <td>Fall Break</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">23</td>
+    <td align="center">Monday, 10/28</td>
+    <td align="center">3.I.2, 3.I.3</td>
+    <td>Surjective and Injective Linear Transformations</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">24</td>
+    <td align="center">Wednesday, 10/30</td>
+    <td align="center">3.II.1, 3.II.2</td>
+    <td>Isomorophisms and Inverses</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">25</td>
+    <td align="center">Friday, 11/1</td>
+    <td align="center">-</td>
+    <td>Second Exam</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">26</td>
+    <td align="center">Monday, 11/4</td>
+    <td align="center">3.II.2</td>
+    <td>Isomorphisms and Inverses</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">27</td>
+    <td align="center">Wednesday, 11/6</td>
+    <td align="center">3.II.3</td>
+    <td>Isomorphism and Dimension</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">28</td>
+    <td align="center">Friday, 11/8</td>
+    <td align="center">3.III.1, 3.III.2, 3.III.3</td>
+    <td>Rank and Nullity</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">29</td>
+    <td align="center">Monday, 11/11</td>
+    <td align="center">3.III.3, 4.I.1</td>
+    <td>Rank-Nullity Theorem, Computing Linear Transformations</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">30</td>
+    <td align="center">Wednesday, 11/13</td>
+    <td align="center">4.I.1, 4.I.2</td>
+    <td>Representing Linear Transformations with Matrices</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">31</td>
+    <td align="center">Friday, 11/15</td>
+    <td align="center">4.II.1, 4.II.2</td>
+    <td>Sums and Products of Matrices</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">32</td>
+    <td align="center">Monday, 11/18</td>
+    <td align="center">4.II.2, 4.II.3</td>
+    <td>Matrix Multiplication</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">33</td>
+    <td align="center">Wednesday, 11/20</td>
+    <td align="center">4.II.4</td>
+    <td>Inverses of Matrices</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">34</td>
+    <td align="center">Friday, 11/22</td>
+    <td align="center">4.II.4, 4.III.1</td>
+    <td>Inverses of Matrices, Change of Basis</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">35</td>
+    <td align="center">Monday, 11/25</td>
+    <td align="center">4.III.1, 4.III.2</td>
+    <td>Change of Basis and Representation, 2x2 Determinants</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">36</td>
+    <td align="center">Wednesday, 11/27</td>
+    <td align="center">-</td>
+    <td>Determinants</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 11/29</td>
+    <td align="center">-</td>
+    <td>Thanksgiving Break</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">37</td>
+    <td align="center">Monday, 12/2</td>
+    <td align="center">-</td>
+    <td>Determinants, Cofactor Expansions, Area/Volume Distortion</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">38</td>
+    <td align="center">Wednesday, 12/4</td>
+    <td align="center">-</td>
+    <td>Third Exam</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">39</td>
+    <td align="center">Friday, 12/6</td>
+    <td align="center">-</td>
+    <td>Eigenvalues and Eigenvectors</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">40</td>
+    <td align="center">Monday, 12/9</td>
+    <td align="center">-</td>
+    <td>Diagonalizability</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">41</td>
+    <td align="center">Wednesday, 12/11</td>
+    <td align="center">-</td>
+    <td>Recursive Sequences, Markov Chains</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">42</td>
+    <td align="center">Friday, 12/13</td>
+    <td align="center">-</td>
+    <td>Absorbing Markov Chains</td>
+  </tr>
+
+
+ </tbody>
+</table>
+
+</body>
+
+</html>
+
