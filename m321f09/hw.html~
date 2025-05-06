@@ -1,0 +1,329 @@
+<html>
+
+<head>
+   <title>Foundations of Abstract Algebra</title>
+</head>
+
+<style>
+    <!--A{text-decoration: none;}-->
+</style>
+
+<body bgcolor="#EDDCC2" text="#000000" link="#80224A" vlink="#65002A" alink="FF0000">
+
+<center>
+  <h2><a href="index.html">Math 321</a></h2>
+  <h3>Foundations of Abstract Algebra</h3>
+</center>
+
+
+<table align="center" width=600 cellpadding=5 cellspacing=0 border=0>
+  <tbody>
+  <tr bgcolor="#CBBAA0">
+    <td width=20% align=center><a href="index.html">General Information</a></td>
+    <td width=20% align=center><a href="schedule.html">Schedule</a></td>
+    <td width=20% align=center><a href="hw.html">Homework</a></td>
+  </tr>
+  </tbody>
+</table>
+
+<br>
+  
+<table bgcolor="#BAA99" border="0" cellpadding="2" cellspacing="2" width="100%">
+  <tbody>
+  <tr>
+    <th align="left">Homework</th>
+  </tr>
+  </tbody>
+</table>
+
+<p>
+Homework assignments will be due for most class periods and will be posted to the course webpage.  They must be turned in at the beginning of class.  Solutions to the homework will also be posted online (likely on PioneerWeb).  Please take the time to write up your solutions neatly and carefully!  Your lowest three homework scores will be dropped.
+</p>
+
+<p>
+Although there will certainly be some "computational" problems in the course, most of the homework involves writing proofs.  This often means that there there are many correct answers.  This also means that the clarity of exposition and the proper use of mathematical terminology are as vital to your solutions as having the correct idea.  I understand that you may not be entirely comfortable with writing mathematical proofs (especially early in the course), but learning the standards of such proofs is as important a goal of this course as is learning the technical material.  Do not be alarmed if your homework has many comments about how to tighten your mathematical prose.
+</p>
+
+<p>
+You must cite other books or online sources if you use them to help solve a problem.  If you enjoy working in groups, I encourage you to work with others in the class to solve the homework problems, but please write on your homework who you worked with.  In all cases, <b>your homework is to be written up independently in your own words</b>.  This means you can not write a communal solution and all copy it down, and you can not copy and paste a solution from somewhere else.  In general, getting ideas from other people or sources is fine (so long as you do not read another solution), but take those ideas and go write the problem up on your own.
+</p>  
+
+<p>
+Unless you have a serious emergency which you bring to my attention before a homework assignment is due, late homework will not be accepted.  However, please feel free to take advantage of the fact that several homework scores are dropped to skip writing up a homework assignment if you have more pressing demands on your time.
+</p>
+
+<table align="center" border="0" cellpadding="4" cellspacing="2" width="80%">
+  <tbody>
+  <tr bgcolor="#A99880">
+    <th width="10%">Number</th>
+    <th width="20%">Due Date</th>
+    <th width="50%">Homework</th>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">1</td>
+    <td align="center">Monday, 8/31</td>
+    <td>Chapter 0: #1, 3, 7, 9</td>
+  </tr>  
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">2</td>
+    <td align="center">Wednesday, 9/2</td>
+    <td>Chapter 0: #15, 17, 18, 19, 22</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">3</td>
+    <td align="center">Friday, 9/4</td>
+    <td>Chapter 0: #24abd, 25abc, 28, 29</td>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">4</td>
+    <td align="center">Monday, 9/7</td>
+    <td>Chapter 1: #6, 11, 17b, 20</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">5</td>
+    <td align="center">Wednesday, 9/9</td>
+    <td>Chapter 1: #15bdf, 26, 27<br>And also: <a href="hw5.pdf">Extra Problem</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">6</td>
+    <td align="center">Friday, 9/11</td>
+    <td>Chapter 2: #2d, 7, 10, 14<br>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">7</td>
+    <td align="center">Monday, 9/14</td>
+    <td>Chapter 2: #25, 28, 29, 30<br>Also: Write out the Cayley Table for
+    the group U(18)</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">8</td>
+    <td align="center">Wednesday, 9/16</td>
+    <td>Chapter 2: #43, 44, 46, 52</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">9</td>
+    <td align="center">Friday, 9/18</td>
+    <td>Chapter 3: #1a, 4b, 14, 23, 24<br>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">-</td>
+    <td align="center">Monday, 9/21</td>
+    <td>No Assignment (Exam Today)</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 9/23</td>
+    <td>No Assignment</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">10</td>
+    <td align="center">Friday, 9/25</td>
+    <td>Chapter 4: #18, 25, 26abc, 27, 35<br>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">11</td>
+    <td align="center">Monday, 9/28</td>
+    <td>Chapter 4: #29, 33<br>Chapter 5: #5bfh, 9</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">12</td>
+    <td align="center">Wednesday, 9/30</td>
+    <td>Chapter 5: #8, 12, 17, 19</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 10/2</td>
+    <td>No Assignment<br>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">13</td>
+    <td align="center">Monday, 10/5</td>
+    <td>Chapter 5: #20<br>Chapter 6: #6, 7b, 8b, 9b, 10b</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">14</td>
+    <td align="center">Wednesday, 10/7</td>
+    <td>Chapter 8: #3, 5, 9, 12, 26<br>For #9, no need to argue again
+    that it is a group (see previous homework)</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">15</td>
+    <td align="center">Friday, 10/9</td>
+    <td>Chapter 8: #16bd, 29, 34, 36, 37<br>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">-</td>
+    <td align="center">Monday, 10/12</td>
+    <td>No Assignment</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 10/14</td>
+    <td>No Assignment (Exam Today)</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">16</td>
+    <td align="center">Friday, 10/16</td>
+    <td><a href="hw16.pdf">Assignment</a><br>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">-</td>
+    <td align="center">Monday, 10/19</td>
+    <td>Fall Break</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 10/21</td>
+    <td>Fall Break</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 10/23</td>
+    <td>Fall Break<br>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">-</td>
+    <td align="center">Monday, 10/26</td>
+    <td>No Assignment</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">17</td>
+    <td align="center">Wednesday, 10/28</td>
+    <td>Chapter 9: #6abcde, 20, 24, 26cd</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">18</td>
+    <td align="center">Friday, 10/30</td>
+    <td><a href="hw18.pdf">Assignment</a><br>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">19</td>
+    <td align="center">Monday, 11/2</td>
+    <td><a href="hw19.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">20</td>
+    <td align="center">Wednesday, 11/4</td>
+    <td><a href="hw20.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 11/6</td>
+    <td>No Assignment (Class canceled)<br>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">21</td>
+    <td align="center">Monday, 11/9</td>
+    <td><a href="hw21.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">22</td>
+    <td align="center">Wednesday, 11/11</td>
+    <td><a href="hw22.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 11/13</td>
+    <td>No Assignment<br>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">-</td>
+    <td align="center">Monday, 11/16</td>
+    <td>No Assignment</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 11/18</td>
+    <td>No Assignment (Exam Today)</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">23</td>
+    <td align="center">Friday, 11/20</td>
+    <td>Chapter 14: #2, 5b, 7, 8, 10, 19c<br>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">24</td>
+    <td align="center">Monday, 11/23</td>
+    <td><a href="hw24.pdf">Assignment</a></td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">-</td>
+    <td align="center">Wednesday, 11/25</td>
+    <td>No Assignment</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">-</td>
+    <td align="center">Friday, 11/27</td>
+    <td>Thanksgiving Break<br>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">25</td>
+    <td align="center">Monday, 11/30</td>
+    <td>Chapter 15: #2bde, 3bd, 4bd, 5bd, 9, 11</td>
+  </tr>
+
+  <tr bgcolor="#CBBAA0">
+    <td align="center">26</td>
+    <td align="center">Wednesday, 12/2</td>
+    <td>Chapter 15: #7, 8abcd, 13, 15, 20</td>
+  </tr>
+
+  <tr bgcolor="#BAA990">
+    <td align="center">27</td>
+    <td align="center">Friday, 12/4</td>
+    <td><a href="hw27.pdf">Assignment</a><br>
+  </tr>
+
+  <tr bgcolor="#DCCBB0">
+    <td align="center">28</td>
+    <td align="center">Monday, 12/7</td>
+    <td><a href="hw28.pdf">Assignment</a></td>
+  </tr>
+
+  </tbody>
+</table>
+
+
+</body>
+
+</html>
